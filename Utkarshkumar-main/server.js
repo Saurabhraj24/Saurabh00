@@ -9,7 +9,7 @@ const nodemailer = require("nodemailer");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const TO_EMAIL = "saurabh2006july@gmail.com";
+const TO_EMAIL = process.env.TO_EMAIL || "saurabh2006july@gmail.com";
 
 // Optional: load env vars from .env for local dev (no extra dependency needed)
 // If you create a ".env" file (see .env.example), this will load it.
@@ -85,6 +85,8 @@ function createMailTransport() {
 async function sendContactEmail(entry) {
   const transport = createMailTransport();
   if (!transport) {
+    // Fallback: still store message locally in `data/contact-messages.json`.
+    console.warn("SMTP not configured, fallback to local storage only.");
     return {
       sent: false,
       reason: "SMTP not configured"
