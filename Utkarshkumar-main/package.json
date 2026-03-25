@@ -1,0 +1,14 @@
+{
+  "name": "utkarsh-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site for Utkarsh Kumar with a simple Node.js backend for the contact form.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14"
+  }
+}
+

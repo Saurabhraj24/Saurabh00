@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurabh raj | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of saurabh raj — Aspiring Full Stack Developer. Projects, skills, achievements, and contact."
+    />
+
+    <!-- Google Fonts: Syne + DM Mono + Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Outfit:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <header class="header" id="top">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Go to Home">
+          <span class="brand__dot"></span>
+          <span class="brand__text">Saurabh</span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Toggle theme"
+          id="themeToggle"
+        >
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <ul class="nav__list">
+            <li><a class="nav__link active" href="#home">Home</a></li>
+            <li><a class="nav__link" href="#about">About</a></li>
+            <li><a class="nav__link" href="#resume">Resume</a></li>
+            <li><a class="nav__link" href="#education">Education</a></li>
+            <li><a class="nav__link" href="#skills">Skills</a></li>
+            <li><a class="nav__link" href="#projects">Projects</a></li>
+            <li><a class="nav__link" href="#certificate">Certificate</a></li>
+            <li><a class="nav__link" href="#achievement">Achievement</a></li>
+            <li><a class="nav__link" href="#internship">Internship</a></li>
+            <li><a class="nav__link" href="#hackathon">Hackathon</a></li>
+            <li><a class="nav__link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ===================== HOME / HERO ===================== -->
+      <section class="section hero" id="home">
+        <!-- Floating particles -->
+        <div class="hero__particles" aria-hidden="true" id="particles"></div>
+
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__badge">
+              <span class="dot"></span>
+              Aspiring Full Stack Developer
+            </p>
+
+            <h1 class="hero__title">
+              Hi, I'm <span class="accent">Saurabh raj </span>.<br />
+              <span class="typing-text" id="typingText"></span>
+            </h1>
+
+            <p class="hero__subtitle">
+              Aspiring Full Stack Developer | Java &amp; DSA Enthusiast | Building scalable and impactful web applications.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#projects">
+                <i class="fa-solid fa-diagram-project"></i>
+                View Projects
+              </a>
+              <a class="btn btn--ghost" href="SaurabhCV.jpg" download>
+                <i class="fa-solid fa-file-arrow-down"></i>
+                Download CV
+              </a>
+              <a class="btn btn--soft" href="#contact">
+                <i class="fa-solid fa-paper-plane"></i>
+                Contact Me
+              </a>
+            </div>
+
+            <div class="hero__meta">
+              <div class="meta-card">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                  <p class="meta-card__label">Focus</p>
+                  <p class="meta-card__value">Full Stack + DSA</p>
+                </div>
+              </div>
+              <div class="meta-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <p class="meta-card__label">Open to</p>
+                  <p class="meta-card__value">Internships &amp; Projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal">
+            <div class="glass-card">
+              <div class="glass-card__top">
+                <div class="window-dots" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+                <p class="glass-card__title">quick-intro.js</p>
+              </div>
+              <div class="glass-card__body">
+                <p class="mono"><span class="muted">const</span> role = <span class="string">"Aspiring Full Stack Dev"</span>;</p>
+                <p class="mono"><span class="muted">const</span> languages = <span class="string">["Java", "Python", "C++", "JS", "PHP"]</span>;</p>
+                <p class="mono"><span class="muted">const</span> frontend = <span class="string">["HTML", "CSS", "React"]</span>;</p>
+                <p class="mono"><span class="muted">const</span> backend = <span class="string">["Node.js", "Laravel"]</span>;</p>
+                <p class="mono"><span class="muted">const</span> database = <span class="string">["MySQL", "PostgreSQL"]</span>;</p>
+                <p class="mono"><span class="muted">const</span> coreSkills = <span class="string">["DSA", "Problem Solving"]</span>;</p>
+                <p class="mono"><span class="muted">const</span> status = <span class="string">"Always learning &amp; building 🚀"</span>;</p>
+
+                <div class="chips">
+                  <span class="chip"><i class="fa-brands fa-java"></i> Java</span>
+                  <span class="chip"><i class="fa-brands fa-js"></i> JavaScript</span>
+                  <span class="chip"><i class="fa-brands fa-laravel"></i> Laravel</span>
+                  <span class="chip"><i class="fa-solid fa-database"></i> MySQL</span>
+                  <span class="chip"><i class="fa-brands fa-react"></i> React</span>
+                  <span class="chip"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__bg" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== ABOUT ===================== -->
+      <section class="section" id="about">
+        <div class="container section__head reveal">
+          <p class="section__label">// who I am</p>
+          <h2 class="section__title">About Me</h2>
+          <p class="section__subtitle">
+            A quick introduction and what I'm currently focused on.
+          </p>
+        </div>
+
+        <div class="container about__grid">
+          <div class="about__text reveal">
+            <p class="lead">
+              I'm Saurabh raj a Computer Science student and aspiring Full Stack Developer
+              who enjoys building modern web applications and solving complex problems using
+              efficient algorithms and data structures.
+            </p>
+
+            <p>
+              I have experience working with technologies like <strong>Java</strong>,
+              <strong>Python</strong>, <strong>C++</strong>, <strong>HTML</strong>,
+              <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>,
+              <strong>Node.js</strong>, <strong>PHP</strong>, <strong>Laravel</strong>,
+              <strong>MySQL</strong>, and <strong>PostgreSQL</strong>. I actively practice
+              <strong>Data Structures &amp; Algorithms</strong> and enjoy building projects that
+              improve my problem-solving and development skills.
+            </p>
+
+            <p>
+              I'm passionate about learning new technologies, writing clean and efficient
+              code, and creating impactful digital solutions. Currently, I'm focused on
+              strengthening my full-stack development skills and building real-world
+              projects that solve meaningful problems.
+            </p>
+
+            <div class="about__highlights">
+              <div class="highlight">
+                <i class="fa-solid fa-code"></i>
+                <p><strong>Problem Solver</strong> with strong DSA practice</p>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-laptop-code"></i>
+                <p><strong>Full Stack Development</strong> from frontend to backend</p>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-rocket"></i>
+                <p><strong>Project Builder</strong> focused on real-world applications</p>
+              </div>
+              <div class="highlight">
+                <i class="fa-solid fa-brain"></i>
+                <p><strong>Lifelong Learner</strong> always upskilling</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__media reveal">
+            <img
+              class="profile"
+              src="saurabh.jpg"
+              alt="Profile portrait"
+              loading="lazy"
+            />
+            <div class="about__card">
+              <p class="about__card-title">Current Goal</p>
+              <p class="about__card-text">Building scalable full-stack applications and sharpening DSA skills for top tech roles</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== RESUME ===================== -->
+      <section class="section" id="resume">
+        <div class="container section__head reveal">
+          <p class="section__label">// my profile</p>
+          <h2 class="section__title">Resume</h2>
+          <p class="section__subtitle">
+            Download my CV and get a quick professional summary.
+          </p>
+        </div>
+
+        <div class="container resume__grid">
+          <div class="resume__card reveal">
+            <h3 class="resume__title">Download CV</h3>
+            <p class="muted" style="margin:.3rem 0 1.2rem; font-size:.9rem;">
+              Get my complete profile including projects, skills, and achievements.
+            </p>
+            <a class="btn btn--primary" href="SaurabhCV.jpg" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-download"></i>
+              Download CV (PDF)
+            </a>
+          </div>
+
+          <div class="resume__card reveal">
+            <h3 class="resume__title">Summary</h3>
+            <ul class="list">
+              <li><strong>Aspiring Full Stack Developer</strong> with strong foundation in Java and DSA.</li>
+              <li>Hands-on project experience in <strong>React, Node.js, Laravel, MySQL</strong>.</li>
+              <li>Open to <strong>internships</strong>, collaborative projects.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== EDUCATION ===================== -->
+      <section class="section section--alt" id="education">
+        <div class="container section__head reveal">
+          <p class="section__label">// academic details</p>
+          <h2 class="section__title">Education</h2>
+          <p class="section__subtitle">
+            My current academic background and key coursework.
+          </p>
+        </div>
+
+        <div class="container resume__grid">
+          <div class="resume__card reveal">
+            <h3 class="resume__title">B.Tech — Computer Science</h3>
+            <p class="muted">Lovely Professional University (2023 - 2027)</p>
+            <ul class="list">
+              <li><strong>Current CGPA:</strong> 6.86</li>
+              <li><strong>Relevant Coursework:</strong> DSA, DBMS, OOP, Operating Systems</li>
+              <li><strong>Focus Areas:</strong> Full Stack Development, Problem Solving</li>
+            </ul>
+          </div>
+
+          <div class="resume__card reveal">
+            <h3 class="resume__title">School Education</h3>
+            <ul class="list">
+              <li><strong>Class 12:</strong> Sri chaitanya  (vizag)  (2021-2023)</li>
+              <li><strong>Class 10:</strong> jeewan public school  (motihari) (2020)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== SKILLS ===================== -->
+      <section class="section" id="skills">
+        <div class="container section__head reveal">
+          <p class="section__label">// what I know</p>
+          <h2 class="section__title">Skills</h2>
+          <p class="section__subtitle">
+            A snapshot of my core technical skills and proficiency levels.
+          </p>
+        </div>
+
+        <div class="container skills__grid">
+          <div class="skill reveal" data-level="90">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-brands fa-java"></i> Java</p>
+              <p class="skill__value">90%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="80">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-solid fa-sitemap"></i> Data Structures &amp; Algorithms</p>
+              <p class="skill__value">80%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="95">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-brands fa-html5"></i> HTML</p>
+              <p class="skill__value">95%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="88">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-brands fa-css3-alt"></i> CSS</p>
+              <p class="skill__value">88%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="82">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-brands fa-js"></i> JavaScript</p>
+              <p class="skill__value">82%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="80">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-brands fa-laravel"></i> Laravel</p>
+              <p class="skill__value">80%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="76">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-solid fa-database"></i> MySQL</p>
+              <p class="skill__value">76%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+
+          <div class="skill reveal" data-level="84">
+            <div class="skill__top">
+              <p class="skill__name"><i class="fa-brands fa-github"></i> Git &amp; GitHub</p>
+              <p class="skill__value">84%</p>
+            </div>
+            <div class="bar"><span class="bar__fill"></span></div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== PROJECTS ===================== -->
+      <section class="section" id="projects">
+        <div class="container section__head reveal">
+          <p class="section__label">// what I've built</p>
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">
+            Selected work showcasing my development skills.
+          </p>
+        </div>
+
+        <div class="container project-filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="full-stack">Full Stack</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="data-analysis">Data Analysis</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+        </div>
+
+        <div class="container cards">
+          <article class="card reveal" data-category="full-stack">
+            <div class="card__top">
+              <p class="tag">Full Stack • PHP</p>
+              <h3 class="card__title">Personal Finance Management System</h3>
+              <p class="card__desc">
+                A full-featured personal finance platform to track income, expenses, savings, and budgets in one place with a practical data-driven workflow.
+              </p>
+              <p class="card__tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+            </div>
+            <div class="card__actions">
+              <a class="link" href="https://github.com/Utkarshkumar63/Personal-Finance-Management-System" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="frontend">
+            <div class="card__top">
+              <p class="tag">EdTech • ChatBot</p>
+              <h3 class="card__title">Exam Preparation Tutorial ChatBot</h3>
+              <p class="card__desc">
+                A responsive web app for student exam preparation with login/signup and chatbot-ready structure designed for a smooth tutorial experience.
+              </p>
+              <p class="card__tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="card__actions">
+              <a class="link" href="https://github.com/Utkarshkumar63/Exam-Preparation-Tutorial-ChatBot" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="frontend">
+            <div class="card__top">
+              <p class="tag">Web • Frontend</p>
+              <h3 class="card__title">Responsive Portfolio Website</h3>
+              <p class="card__desc">
+                A modern responsive portfolio with smooth scrolling, sticky navbar, reveal animations, skill bars, and a working contact form. Built using HTML, CSS, and JavaScript.
+              </p>
+              <p class="card__tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js</p>
+            </div>
+            <div class="card__actions">
+              <a class="link" href="https://github.com/Saurabhraj24" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="full-stack">
+            <div class="card__top">
+              <p class="tag">Data Analysis • Social Impact</p>
+              <h3 class="card__title">Identification of Infrastructure Service Gaps in SC Majority Villages for Adarsh Gram Declaration</h3>
+              <p class="card__desc">
+                A data-driven framework to evaluate and bridge developmental disparities in Scheduled Caste (SC) majority villages, facilitating transformation into Adarsh Grams by identifying critical deficits in infrastructure, social amenities, and public services.
+              </p>
+              <p class="card__tech"><strong>Tech Stack:</strong> Node.js, React.js, Express.js, MongoDB</p>
+            </div>
+            <div class="card__actions">
+              <a class="link" href="https://github.com/Utkarshkumar63/Identification-of-Infrastructure-Service-Gaps-in-SC-Majority-Villages-for-Adarsh-Gram-Declaration" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="python">
+            <div class="card__top">
+              <p class="tag">Computer Science • Python</p>
+              <h3 class="card__title">Virtual Memory Optimization Challenge</h3>
+              <p class="card__desc">
+                Implementation and optimization of memory management using page replacement algorithms like LRU and Optimal Page Replacement to enhance system performance by minimizing page faults and reducing fragmentation.
+              </p>
+              <p class="card__tech"><strong>Tech Stack:</strong> Python, Memory Management Algorithms</p>
+            </div>
+            <div class="card__actions">
+              <a class="link" href="https://github.com/Utkarshkumar63/Virtual-Memory-Optimization-Challenge" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== CERTIFICATE ===================== -->
+      <section class="section section--alt" id="certificate">
+        <div class="container section__head reveal">
+          <p class="section__label">// certifications</p>
+          <h2 class="section__title">Certificate</h2>
+          <p class="section__subtitle">
+            Certifications that validate my learning and practical skills.
+          </p>
+        </div>
+
+        <div class="container achievements">
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">
+                Certificate of Merit — DSA using C++ (LPU)
+              </h3>
+              <p class="achievement__desc">
+                Awarded by Lovely Professional University (Centre for Professional Enhancement) for completing the skill development course on DSA using C++. Covered arrays, linked lists, stacks, queues, trees, graphs, and core algorithmic techniques.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Graph Theory Programming Camp</h3>
+              <p class="achievement__desc">
+                Completed a focused Graph Theory camp and solved 17 advanced graph problems under mentorship, strengthening fundamentals like traversal, shortest paths, and graph-based problem solving.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">GEN AI NASSCOM — Skill Development Program</h3>
+              <p class="achievement__desc">
+                Completed Generative AI training covering core concepts, practical applications, and industry-relevant skills for building future-ready AI-driven solutions.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                 
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Frontend Developer (React) — HackerRank</h3>
+              <p class="achievement__desc">
+                Earned the HackerRank React certification by demonstrating skills in building efficient UI components, handling state, and writing clean, scalable frontend logic.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                 
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">JavaScript (Basic) — HackerRank</h3>
+              <p class="achievement__desc">
+                Certified in core JavaScript fundamentals including functions, arrays, objects, basic DOM logic, and problem solving through structured assessments.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                 
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Build Generative AI Apps with No‑Code Tools (Udemy)</h3>
+              <p class="achievement__desc">
+                Completed a hands-on course focused on building and deploying AI-powered workflows using no-code platforms, turning real-world ideas into fast prototypes.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                 
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Full‑Stack Web Development Bootcamp (74 hours)</h3>
+              <p class="achievement__desc">
+                Completed an in-depth web development bootcamp covering HTML, CSS, JavaScript, Node.js, Express, APIs, and SQL concepts with project-driven learning and best practices for clean code.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                 
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-comment-dots"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">ChatGPT‑4 Prompt Engineering (Infosys Springboard)</h3>
+              <p class="achievement__desc">
+                Completed a prompt engineering course exploring LLM fundamentals, practical prompting strategies, and responsible usage for productivity, creativity, and problem solving.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-atom"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Computational Theory — Language Principles &amp; Finite Automata</h3>
+              <p class="achievement__desc">
+                Completed a foundational theory course covering formal languages, grammars, regular expressions, deterministic/nondeterministic finite automata, and real-world applications.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">MongoDB University — Schema Design &amp; Performance Optimization</h3>
+              <p class="achievement__desc">
+                Completed MongoDB University training focused on schema design patterns, data modeling decisions (embed vs reference), and performance considerations for scalable applications.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">The Bits and Bytes of Computer Networking (Google • Coursera)</h3>
+              <p class="achievement__desc">
+                Completed a networking fundamentals course covering core internet concepts and practical understanding of how systems communicate over networks.
+              </p>
+              <div class="cert__actions">
+                <a
+                  class="link"
+                  
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== ACHIEVEMENT ===================== -->
+      <section class="section" id="achievement">
+        <div class="container section__head reveal">
+          <p class="section__label">// milestones</p>
+          <h2 class="section__title">Achievement</h2>
+          <p class="section__subtitle">
+            Personal and competitive highlights from coding journey.
+          </p>
+        </div>
+
+        <div class="container achievements">
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-fire"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">200+ Days Daily Streak on LeetCode</h3>
+              <p class="achievement__desc">
+                Maintained a 200+ day consistent LeetCode streak, demonstrating strong discipline, daily problem-solving habits, and continuous improvement in data structures and algorithms.
+              </p>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">100 Days Streak on GeeksforGeeks and CodeChef</h3>
+              <p class="achievement__desc">
+                Successfully completed 100-day coding streaks across GeeksforGeeks and CodeChef, reflecting consistency across multiple platforms and sustained commitment to competitive coding.
+              </p>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-medal"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">2nd Position in University Hackathon</h3>
+              <p class="achievement__desc">
+                Secured second place in a university-level hackathon by collaborating effectively in a team, building a practical solution under time constraints, and presenting a clear problem-solving approach.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== INTERNSHIP ===================== -->
+      <section class="section section--alt" id="internship">
+        <div class="container section__head reveal">
+          <p class="section__label">// practical exposure</p>
+          <h2 class="section__title">Internship</h2>
+          <p class="section__subtitle">
+            Experience and responsibilities from internship roles.
+          </p>
+        </div>
+
+        <div class="container achievements">
+          <div class="resume__card reveal">
+            <h3 class="resume__title">Java &amp; DSA Summer Internship — LPU</h3>
+            <p class="achievement__desc">
+              Completed a Java and Data Structures internship organized by Lovely Professional University, focused on strengthening core programming concepts, algorithmic thinking, and hands-on problem solving.
+            </p>
+          </div>
+
+          <div class="resume__card reveal">
+            <h3 class="resume__title">Slum Education Volunteer Internship — Prashraya Welfare Foundation</h3>
+            <p class="achievement__desc">
+              Received a Certificate of Appreciation for active participation in Team Aashraya Bihar's slum education drive in Motihari. Contributed to basic literacy and numeracy support, strengthening my commitment to community education and social impact.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== HACKATHON ===================== -->
+      <section class="section" id="hackathon">
+        <div class="container section__head reveal">
+          <p class="section__label">// events</p>
+          <h2 class="section__title">Hackathon</h2>
+          <p class="section__subtitle">
+            Participation and outcomes from hackathon events.
+          </p>
+        </div>
+
+        <div class="container achievements">
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Code Off Duty — Web Hackathon (Coding Wise)</h3>
+              <p class="achievement__desc">
+                Participated in the two-day Code Off Duty Web Hackathon organized by Coding Wise on 8th-9th March 2024. Applied web development and problem-solving skills to build innovative solutions in a fast-paced collaborative environment.
+              </p>
+            </div>
+          </div>
+
+          <div class="achievement reveal">
+            <div class="achievement__icon">
+              <i class="fa-solid fa-ranking-star"></i>
+            </div>
+            <div>
+              <h3 class="achievement__title">Key Learning & Impact</h3>
+              <p class="achievement__desc">
+                Strengthened teamwork and creativity by collaborating with talented peers, turning ideas into practical outcomes, and learning how to perform under strict deadlines and real-world pressure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="neon-divider" />
+
+      <!-- ===================== CONTACT ===================== -->
+      <section class="section section--alt" id="contact">
+        <div class="container section__head reveal">
+          <p class="section__label">// let's connect</p>
+          <h2 class="section__title">Contact</h2>
+          <p class="section__subtitle">
+            Want to collaborate or have an opportunity? Let's talk.
+          </p>
+        </div>
+
+        <div class="container contact__grid">
+          <div class="contact__info reveal">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <p class="contact-item__label">Email</p>
+                <a class="contact-item__value" href="mailto:saurabh2006july@gmail.com">saurabh2006july@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <div>
+                <p class="contact-item__label">LinkedIn</p>
+                <a
+                  class="contact-item__value"
+                  href="https://www.linkedin.com/in/saurabh89368/"
+                  target="_blank"
+                  rel="noreferrer"
+                >linkedin.com/in/saurabh89368</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <p class="contact-item__label">GitHub</p>
+                <a
+                  class="contact-item__value"
+                  href="https://www.linkedin.com/in/saurabh89368/"
+                  target="_blank"
+                  rel="noreferrer"
+                >https://github.com/Saurabhraj24</a>
+              </div>
+            </div>
+
+            <div class="mini-note">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>
+                Currently open to internship opportunities and collaborative projects. I typically respond within 24 hours.
+              </p>
+            </div>
+          </div>
+
+          <form class="form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+              <small class="error" data-error-for="name"></small>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+              <small class="error" data-error-for="email"></small>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project or opportunity..."
+              ></textarea>
+              <small class="error" data-error-for="message"></small>
+            </div>
+
+            <button class="btn btn--primary" type="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+              Send Message
+            </button>
+
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <p class="footer__brand">Saurabh Raj</p>
+          <p class="footer__text muted">
+            Building projects • Learning daily • Open to opportunities
+          </p>
+        </div>
+
+        <div class="footer__social" aria-label="Social links">
+          <a class="icon-btn" href="https://github.com/Saurabhraj24" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/saurabh89368/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="icon-btn" href="mailto:saurabh2006july@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p class="muted">
+          © <span id="year"></span> Saurabh Raj. All rights reserved.
+        </p>
+        <a class="to-top" href="#top" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- EmailJS (client-side email sending) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <script>
+      // Cursor glow tracker
+      document.addEventListener('mousemove', (e) => {
+        document.body.style.setProperty('--cx', e.clientX + 'px');
+        document.body.style.setProperty('--cy', e.clientY + 'px');
+      });
+
+      // Generate floating particles
+      (function spawnParticles() {
+        const container = document.getElementById('particles');
+        if (!container) return;
+        const colors = ['#9d7dff', '#31d1ff', '#00e5a0', '#ff5fa0'];
+        for (let i = 0; i < 24; i++) {
+          const p = document.createElement('span');
+          p.className = 'particle';
+          const color = colors[Math.floor(Math.random() * colors.length)];
+          const x = Math.random() * 100;
+          const delay = Math.random() * 10;
+          const dur = 6 + Math.random() * 8;
+          const dx = (Math.random() - .5) * 60;
+          p.style.cssText = `
+            left:${x}%; bottom:${Math.random()*60}%;
+            background:${color};
+            --delay:${delay}s; --dur:${dur}s; --dx:${dx}px;
+            width:${2 + Math.random() * 3}px;
+            height:${2 + Math.random() * 3}px;
+            box-shadow: 0 0 6px ${color};
+          `;
+          container.appendChild(p);
+        }
+      })();
+    </script>
+  </body>
+</html>
